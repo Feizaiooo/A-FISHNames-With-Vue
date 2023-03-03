@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'boschsans';
+  src: url("../fonts-woff2/BoschSans-Light-v5_003.woff2") format('woff2'),
+  url('../fonts-woff/BoschSans-Light-v5_003.woff') format('woff')
+}

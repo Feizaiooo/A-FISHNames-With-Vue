@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3813820 */
+  src: url('iconfont.woff2?t=1672025456334') format('woff2'),
+       url('iconfont.woff?t=1672025456334') format('woff'),
+       url('iconfont.ttf?t=1672025456334') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: "\e664";
+}
+
+.icon-add-circle:before {
+  content: "\e665";
+}
+
+.icon-arrow-down:before {
+  content: "\e666";
+}
+
+.icon-ashbin:before {
+  content: "\e667";
+}
+
+.icon-arrow-right:before {
+  content: "\e668";
+}
+
+.icon-browse:before {
+  content: "\e669";
+}
+
+.icon-bottom:before {
+  content: "\e66a";
+}
+
+.icon-close:before {
+  content: "\e66b";
+}
+
+.icon-comment:before {
+  content: "\e66c";
+}
+
+.icon-direction-down:before {
+  content: "\e66d";
+}
+
+.icon-direction-right:before {
+  content: "\e66e";
+}
+
+.icon-direction-up:before {
+  content: "\e66f";
+}
+
+.icon-direction-left:before {
+  content: "\e670";
+}
+
+.icon-elipsis:before {
+  content: "\e671";
+}
+
+.icon-edit:before {
+  content: "\e672";
+}
+
+.icon-email:before {
+  content: "\e673";
+}
+
+.icon-favorite:before {
+  content: "\e674";
+}
+
+.icon-fabulous:before {
+  content: "\e675";
+}
+
+.icon-file:before {
+  content: "\e676";
+}
+
+.icon-good:before {
+  content: "\e677";
+}
+
+.icon-hide:before {
+  content: "\e678";
+}
+
+.icon-home:before {
+  content: "\e679";
+}
+
+.icon-forward:before {
+  content: "\e67a";
+}
+
+.icon-fullscreen-expand:before {
+  content: "\e67b";
+}
+
+.icon-menu:before {
+  content: "\e67c";
+}
+
+.icon-modular:before {
+  content: "\e67d";
+}
+
+.icon-prompt:before {
+  content: "\e67e";
+}
+
+.icon-refresh:before {
+  content: "\e67f";
+}
+
+.icon-picture:before {
+  content: "\e680";
+}
+
+.icon-save:before {
+  content: "\e681";
+}
+
+.icon-search:before {
+  content: "\e682";
+}
+
+.icon-notification-filling:before {
+  content: "\e68b";
+}
+
+.icon-user-filling:before {
+  content: "\e68c";
+}
+
+.icon-facebook:before {
+  content: "\e65a";
+}
+
+.icon-icon-facebook:before {
+  content: "\e661";
+}
+
