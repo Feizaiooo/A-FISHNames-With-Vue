@@ -1,0 +1,273 @@
+body #FeizaiOpen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d39f6f;
+    color: #F9FAFB;
+    z-index: 999999;
+    pointer-events: none;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body #FeizaiOpen img {
+    width: 120px;
+    max-width: 120px;
+}
+
+
+body #FeizaiOpen .dog {
+    position: relative;
+     /*keyframe名称,动画完成时间，速度曲线，开始延迟，播放次数，播放顺序*/
+    animation: dog 4s linear 0.5s infinite;
+    -webkit-animation: dog 4s linear 0.5s infinite;
+}
+
+@keyframes dog {
+    0% {
+        left: 0px;
+
+    }
+
+    20% {
+        left: 200px;
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+    }
+
+    25% {
+        left: 250px;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+
+    50% {
+        left: 0px;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+
+
+    75% {
+        left: -250px;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    80% {
+        left: -200px;
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+}
+
+    100% {
+        left: 0px;
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+}
+}
+
+@-webkit-keyframes dog
+
+/* Safari and Chrome */
+    {
+        0% {
+            left: 0px;
+    
+        }
+    
+        20% {
+            left: 200px;
+            transform: rotateY(0deg);
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+        }
+    
+        25% {
+            left: 250px;
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -ms-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+        }
+    
+        50% {
+            left: 0px;
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -ms-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+}
+    
+
+    
+        75% {
+            left: -250px;
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -ms-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+        }
+        80% {
+            left: -200px;
+            transform: rotateY(0deg);
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+    }
+    
+    
+        100% {
+            left: 0px;
+            transform: rotateY(0deg);
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+    }
+}
+body #FeizaiOpen .spinner > div {
+    width: 12px;
+    height: 12px;
+    background-color: #1E96F7;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: bouncedelay 1s infinite ease-in-out both;
+    animation: bouncedelay 1s infinite ease-in-out both;
+}
+body #FeizaiOpen .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+body #FeizaiOpen .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+}
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+body #FeizaiOpen .pingyi {
+    position: relative;
+   
+    animation: myfirst 5s linear 2s infinite;
+    /*Firefox:;
+	*/
+    -moz-animation: myfirst 5s linear infinite;
+    /*SafariandChrome:;
+	*/
+    -webkit-animation: myfirst 5s linear infinite;
+    /*Opera:;
+	*/
+    -o-animation: myfirst 5s linear infinite;
+    -webkit-animation: myfirst 5s linear infinite;
+}
+
+body #FeizaiOpen #xuanzhun {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    -webkit-animation: rotate 3s linear infinite;
+    -moz-animation: rotate 3s linear infinite;
+    -o-animation: rotate 3s linear infinite;
+    animation: rotate 3s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+
+    to {
+        -moz-transform: rotate(359deg)
+    }
+}
+
+@-o-keyframes rotate {
+    from {
+        -o-transform: rotate(0deg)
+    }
+
+    to {
+        -o-transform: rotate(359deg)
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(359deg)
+    }
+}
+@font-face {
+    font-family:splatoon1;src:url("@/assets/fonts/Splatoon1-symbol-common.woff2") format("woff2"),url("@/assets/fonts/Splatoon1-symbol-common.woff") format("woff");unicode-range:U+20a0-20cf,U+2100-214f,U+22??,U+23??,U+25a0-25ff,U+26??,U+fb00-fb4f;
+   }
